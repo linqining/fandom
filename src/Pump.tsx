@@ -1,3 +1,5 @@
+import { ConnectButton, useCurrentAccount } from "@mysten/dapp-kit";
+
 function Pump() {
   return (
       <>
@@ -207,18 +209,38 @@ function Pump() {
                                                                           <div
                                                                               className="u_1278264148 dmRespCol small-12 large-2 medium-2"
                                                                               id={1278264148}>
-                                                                              <a data-display-type="block"
-                                                                                 className="u_1061882217 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient"
-                                                                                 file="false"
-                                                                                 href="https://www.fandomfi.xyz/take-action"
-                                                                                 id={1061882217}
-                                                                                 data-element-type="dButtonLinkId">
-                                                                                  <span className="iconBg"
-                                                                                        id={1318894722}> <span
-                                                                                      className="icon hasFontIcon icon-star"
-                                                                                      id={1617101349}/> </span> <span
-                                                                                  className="text"
-                                                                                  id={1384847566}>Connect</span></a>
+
+                                                                              {/*<a data-display-type="block"*/}
+                                                                              {/*   className="u_1061882217 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient"*/}
+                                                                              {/*   file="false"*/}
+                                                                              {/*   href="https://www.fandomfi.xyz/take-action"*/}
+                                                                              {/*   id={1061882217}*/}
+                                                                              {/*   data-element-type="dButtonLinkId">*/}
+                                                                              {/*    <span className="iconBg" id={1318894722}>*/}
+                                                                              {/*        <span className="icon hasFontIcon icon-star" id={1617101349}/>*/}
+                                                                              {/*    </span>*/}
+                                                                              {/*    <span className="text" id={1384847566}>Connect</span>*/}
+                                                                              {/*</a>*/}
+                                                                              <div
+                                                                                  data-display-type="block"
+                                                                                  file="false"
+                                                                                  data-element-type="dButtonLinkId"
+                                                                                  className="u_1061882217 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient">
+                                                                                  <ConnectButton
+                                                                                      data-display-type="inline"
+                                                                                      style={{color:"white"}}
+                                                                                      file="false"
+                                                                                      data-element-type="dButtonLinkId"
+                                                                                      className="u_1061882217 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient"
+                                                                                      connectText="Connect"
+                                                                                  />
+                                                                                  {/*<span className="iconBg"  id={1318894722}>*/}
+                                                                                  {/*    <span className="icon hasFontIcon icon-star" id={1617101349}/>*/}
+                                                                                  {/*</span>*/}
+
+
+                                                                              </div>
+
                                                                           </div>
                                                                       </div>
                                                                   </div>
