@@ -229,7 +229,6 @@ function Pump() {
                                                                                   <ConnectButton
                                                                                       data-display-type="inline"
                                                                                       style={{color:"white"}}
-                                                                                      file="false"
                                                                                       data-element-type="dButtonLinkId"
                                                                                       className="u_1061882217 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient"
                                                                                       connectText="Connect"

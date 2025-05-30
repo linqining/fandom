@@ -1,0 +1,23 @@
+
+.u_1061882217>button{
+    background-color: rgb(199, 0, 57) !important;
+    border-radius: inherit !important;
+    background-image: var(--btn-bg-image) !important;
+    border-color: var(--btn-border-color) !important;
+    border-bottom-color: var(--btn-border-b-color);
+    border-left-color: var(--btn-border-l-color);
+    border-right-color: var(--btn-border-r-color);
+    border-top-color: var(--btn-border-t-color);
+    border-radius: var(--btn-border-radius);
+    border-bottom-left-radius: var(--btn-border-bl-radius);
+    border-bottom-right-radius: var(--btn-border-br-radius);
+    border-top-left-radius: var(--btn-border-tl-radius);
+    border-top-right-radius: var(--btn-border-tr-radius);
+    border-width: var(--btn-border-width);
+    border-bottom-width: var(--btn-border-b-width);
+    border-left-width: var(--btn-border-l-width);
+    border-right-width: var(--btn-border-r-width);
+    border-top-width: var(--btn-border-t-width);
+    direction: var(--btn-text-direction);
+    text-align: var(--btn-text-align);
+}
